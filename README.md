@@ -147,7 +147,12 @@ Used for:
 - Better user experience for authenticated users
 
 ---
+##  AI API Implementation
 
+Our web app will use **AI text similarity APIs** to compare newly added dead body reports with existing records. If a high similarity is found, the system will **flag probable duplicate reports** for authority review.  
+AI will assist only, and **final decisions will be made by authorized personnel**.
+
+---
 ### Final Approach
 **A hybrid model combining both SSR and CSR**  
 This ensures reliability, performance, and scalability while serving both public users and authorities efficiently.
